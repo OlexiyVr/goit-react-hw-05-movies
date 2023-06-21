@@ -18,16 +18,16 @@ const MovieWrapper = styled.div`
   gap: 32px;
   margin-top: 24px;
   margin-bottom: 24px;
-  box-shadow: 0 8px 8px #0000a0;
+  box-shadow: 0 8px 8px rgba(18,118,184,0.43);;
 
   img {
-        width: 320px;
+    width: 320px;
     margin: 20px;
   }
 
   p {
         margin: 30px;
-    color: #00003e;
+    color: rgba(18,118,184);
   }
 
   h2 {
@@ -37,12 +37,12 @@ const MovieWrapper = styled.div`
 
 const Title = styled.h1`
     margin: 30px;
-  font-size: 42px;
+  font-size: 46px;
 `;
 
 const GenreWrapper = styled.p`
   display: flex;
-  gap: 12px;
+  gap: 14px;
 `;
 
 const Genre = styled.span`
@@ -54,12 +54,12 @@ const Genre = styled.span`
 `;
 
 const AdditionalInfo = styled.div`
-    margin-bottom: 32px;
+    margin-bottom: 30px;
   margin-top: 40px;
 
   h2 {
     margin-bottom: 24px;
-   font-size: 36px;
+   font-size: 30px;
   }
   ul {
     display: flex;

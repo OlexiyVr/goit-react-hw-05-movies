@@ -17,7 +17,8 @@ const Container = styled.div`
 const Heading = styled.h1`
   margin-bottom: 40px;
   font-size: 56px;
-  animation: heading 5000ms infinite;
+  color: #1276b8;
+  animation: heading 4000ms infinite;
 
   @keyframes heading {
     0% {

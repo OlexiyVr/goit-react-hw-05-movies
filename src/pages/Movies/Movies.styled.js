@@ -68,7 +68,7 @@ const Input = styled.input`
 
   &:focus {
     border-color: #0000a0;
-       box-shadow: 0 8px 8px #0000a0;
+       box-shadow: 0 8px 8px rgba(18,118,184,0.43);;
   }
 
   &:not(:focus) {

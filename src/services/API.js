@@ -1,5 +1,5 @@
 const BASE_URL = 'https://api.themoviedb.org/3';
-const API_KEY = '559cbcab39764ce535027da10f396384';
+const API_KEY = '3c0d9d17e3bf9df8442e3946fa73032e';
 
 async function getTrendingMovies() {
   const response = await fetch(
